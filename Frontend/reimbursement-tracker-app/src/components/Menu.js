@@ -118,9 +118,7 @@ const Menu = () => {
                         )}
                       </div>
 
-                      <NavLink to="/Tracking" className={`nav-link ${location.pathname === '/Tracking' ? 'active-link' : ''}`}>
-                        <FaMapMarkerAlt /> Trackings
-                      </NavLink>
+                    
                     </>
                   )}
 
