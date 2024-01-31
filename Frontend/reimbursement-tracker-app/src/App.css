@@ -1,6 +1,6 @@
 body {
   background-image: url('/public/images/3.png');
-  background-size:cover;
+  background-size:inherit;
   background-repeat: no-repeat;
   background-position: fixed;
   margin: 0;

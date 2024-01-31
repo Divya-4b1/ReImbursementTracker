@@ -48,6 +48,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\97db37f7-c626-41b8-afa6-fb951ffa63db_clouds-country-daylight-371633.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\993419e1-7638-41bb-b814-0b50c1f9f15c_clouds-country-daylight-371633.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReimbursementTrackerApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReimbursementTrackerApp</BasePath>
+      <RelativePath>Documents/993419e1-7638-41bb-b814-0b50c1f9f15c_clouds-country-daylight-371633.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\993419e1-7638-41bb-b814-0b50c1f9f15c_clouds-country-daylight-371633.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\9bac1378-d88a-47c2-bbe2-fcc9ff359cc0_Screenshot (573).png))">
       <SourceType>Package</SourceType>
       <SourceId>ReimbursementTrackerApp</SourceId>
@@ -79,6 +95,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\e7bb2d26-d238-4c98-975b-ad92076d6056_food-bill.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\ec6ff0d6-f15e-4547-a2f2-d85fa73c3390_clouds-country-daylight-371633.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReimbursementTrackerApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReimbursementTrackerApp</BasePath>
+      <RelativePath>Documents/ec6ff0d6-f15e-4547-a2f2-d85fa73c3390_clouds-country-daylight-371633.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\ec6ff0d6-f15e-4547-a2f2-d85fa73c3390_clouds-country-daylight-371633.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\f4c85602-a286-4832-ab3d-0d3ff03fc066_Screenshot (604).png))">
       <SourceType>Package</SourceType>
