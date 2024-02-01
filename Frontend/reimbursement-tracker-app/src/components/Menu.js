@@ -135,6 +135,15 @@ const Menu = () => {
                         <FaListAlt /> View All Requests
                       </NavLink>
 
+                      <NavLink
+                        to="/Getpayments"
+                        className={`nav-link ${location.pathname === '/GetPayments' ? 'active-link' : ''}`}
+                      >
+                        <FaMoneyBillAlt /> View Payments
+                      </NavLink>
+                      
+                     
+
                       <div className="payment-dropdown">
                         <div className={`nav-link ${isPaymentDropdownOpen ? 'active-link' : ''}`} onClick={togglePaymentDropdown}>
                           <FaMoneyBillAlt /> Payments

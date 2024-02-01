@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './AddPayments.css';
  
-const AddPayment = () => {
+const AddPayment = ({onClose}) => {
   const currentDate= new Date();
   const formattedDate = `${currentDate.getFullYear()}-${(currentDate.getMonth() + 1).toString().padStart(2, '0')}-${currentDate.getDate().toString().padStart(2, '0')}T${currentDate.getHours().toString().padStart(2, '0')}:${currentDate.getMinutes().toString().padStart(2, '0')}`;
   const [paymentData, setPaymentData] = useState({
@@ -71,6 +71,7 @@ const AddPayment = () => {
       // Add RequestId and PaymentId to local storage
       localStorage.setItem('RequestId', response.data.RequestId);
       localStorage.setItem('PaymentId', response.data.PaymentId);
+      onClose();
     } catch (error) {
       console.error('Error adding payment:', error.response?.data);
       alert('Failed to add payment. Please try again.');
@@ -145,6 +146,7 @@ const AddPayment = () => {
           </div>
  
           <button type="submit">Add Payment</button>
+          <button onClick={onClose}>Cancel</button>
         </form>
       </div>
     </div>
