@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nQLeWSO5qmxVL3eeTfxMuXmSSPXyqk182D6o3vPgszI=",
+  "Hash": "aX/E6e8mSu/XkyYHd8vHglQ5cqDayMNP87uMKD8HpM8=",
   "Source": "ReimbursementTrackerApp",
   "BasePath": "_content/ReimbursementTrackerApp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Documents\\4b631bb5-73da-4a10-bd20-1a41c77a2f34_TRAVEL-AGENCY-1-564x804.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\2000112434\\Downloads\\Reimbursement-Tracker-HRApp-master\\Reimbursement-Tracker-HRApp-master\\ReimbursementTrackerApp\\wwwroot\\Documents\\6b324f58-68c0-456e-af5d-f35a9a27ca46_clouds-country-daylight-371633.jpg",
+      "SourceId": "ReimbursementTrackerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2000112434\\Downloads\\Reimbursement-Tracker-HRApp-master\\Reimbursement-Tracker-HRApp-master\\ReimbursementTrackerApp\\wwwroot\\",
+      "BasePath": "_content/ReimbursementTrackerApp",
+      "RelativePath": "Documents/6b324f58-68c0-456e-af5d-f35a9a27ca46_clouds-country-daylight-371633.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Documents\\6b324f58-68c0-456e-af5d-f35a9a27ca46_clouds-country-daylight-371633.jpg"
     },
     {
       "Identity": "C:\\Users\\2000112434\\Downloads\\Reimbursement-Tracker-HRApp-master\\Reimbursement-Tracker-HRApp-master\\ReimbursementTrackerApp\\wwwroot\\Documents\\85509d8b-a4bd-4a83-8952-5ba12162a0a4_clouds-country-daylight-371633.jpg",

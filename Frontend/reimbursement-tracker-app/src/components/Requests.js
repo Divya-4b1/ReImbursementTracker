@@ -1,4 +1,5 @@
 
+ 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import UpdateTracking from './UpdateTracking';
@@ -112,9 +113,9 @@ const Requests = () => {
   const handleMakePaymentClick = (request) => {
     setSelectedPaymentRequest(request);
   };
-
  
-  
+ 
+ 
  
   const resetSelectedPaymentRequest = () => {
     setSelectedPaymentRequest(null);
@@ -234,10 +235,13 @@ const Requests = () => {
       {selectedPaymentRequest && (
         <div className="modal">
           <div className="modal-content">
-            <AddPayments
+          <AddPayments
               request={selectedPaymentRequest}
+              amount={selectedPaymentRequest.amount}
+              requestId={selectedPaymentRequest.requestId}
               onClose={resetSelectedPaymentRequest}
             />
+         
           </div>
         </div>
       )}
