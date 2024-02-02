@@ -196,6 +196,7 @@ const AddPayment = ({ onClose, amount, requestId, request }) => {
               value={paymentData.BankAccountNumber}
 
               onChange={handleInputChange}
+              readOnly
 
             />
 
@@ -244,7 +245,7 @@ const AddPayment = ({ onClose, amount, requestId, request }) => {
               value={paymentData.PaymentAmount}
 
               onChange={handleInputChange}
-
+              readOnly
             />
 
             {errors.PaymentAmount && (
