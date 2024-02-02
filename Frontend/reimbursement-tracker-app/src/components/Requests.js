@@ -236,9 +236,11 @@ const Requests = () => {
         <div className="modal">
           <div className="modal-content">
           <AddPayments
+
               request={selectedPaymentRequest}
               amount={selectedPaymentRequest.amount}
               requestId={selectedPaymentRequest.requestId}
+              username={selectedPaymentRequest.username}
               onClose={resetSelectedPaymentRequest}
             />
          
