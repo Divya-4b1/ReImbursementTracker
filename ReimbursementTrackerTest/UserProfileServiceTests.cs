@@ -37,7 +37,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC="KVB001"
         };
 
         // Act
@@ -58,7 +59,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         // Add the first profile
@@ -77,7 +79,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         // Add the profile
@@ -109,7 +112,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
         var userProfileDTO2 = new UserProfileDTO
         {
@@ -119,7 +123,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         // Add the profile
@@ -148,7 +153,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         // Act & Assert
@@ -167,7 +173,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         // Add the profile
@@ -201,7 +208,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         // Add the profile
@@ -232,7 +240,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "New York",
             ContactNumber = "1234567890",
-            BankAccountNumber = "9876543210"
+            BankAccountNumber = "9876543210",
+            IFSC = "KVB001"
         };
 
         var userProfileDTO2 = new UserProfileDTO
@@ -242,7 +251,8 @@ public class UserProfileServiceTests
             LastName = "Doe",
             City = "San Francisco",
             ContactNumber = "9876543210",
-            BankAccountNumber = "1234567890"
+            BankAccountNumber = "1234567890",
+            IFSC = "KVB001"
         };
 
         // Add the profiles

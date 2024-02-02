@@ -11,6 +11,7 @@ const AddProfile = () => {
     city: '',
     contactNumber: '',
     bankAccountNumber: '',
+    ifsc:'',
   });
 
   const [errors, setErrors] = useState({});
@@ -35,6 +36,7 @@ const AddProfile = () => {
       errors.city = 'Please enter your city.';
     }
 
+
     if (!profileData.contactNumber.trim()) {
       errors.contactNumber = 'Please enter your contact number.';
     } else if (!/^\d{10}$/.test(profileData.contactNumber.trim())) {
@@ -46,6 +48,9 @@ const AddProfile = () => {
     } else if (!/^\d{15}$/.test(profileData.bankAccountNumber.trim())) {
       errors.bankAccountNumber = 'Bank Account Number must be 15 digits.';
     }
+    if (!profileData.ifsc.trim()) {
+      errors.city = 'Please enter your ifsc.';}
+        
 
     setErrors(errors);
     return Object.keys(errors).length === 0;
@@ -175,6 +180,21 @@ const AddProfile = () => {
               className={`form-control ${errors.bankAccountNumber ? 'is-invalid' : ''}`}
             />
             {errors.bankAccountNumber && <div className="invalid-feedback">{errors.bankAccountNumber}</div>}
+          </div>
+
+          <div className="fieldContainer">
+            <label className="fieldLabel" htmlFor="ifsc">
+              IFSC:
+            </label>
+            <input
+              type="text"
+              id="ifsc"
+              name="ifsc"
+              value={profileData.ifsc}
+              onChange={handleInputChange}
+              className={`form-control ${errors.ifsc ? 'is-invalid' : ''}`}
+            />
+            {errors.ifsc && <div className="invalid-feedback">{errors.ifsc}</div>}
           </div>
 
           <div className="buttonContainer">
