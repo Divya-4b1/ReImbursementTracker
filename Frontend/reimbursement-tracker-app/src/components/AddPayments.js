@@ -88,7 +88,8 @@ const AddPayment = ({ onClose, amount, requestId, request, username }) => {
       console.log('Payment added successfully:', response.data);
       alert('Payment added successfully');
 
-      const toemail = localStorage.getItem("Payusername") || username; // Corrected
+      localStorage.setItem('Trackusername', username);
+      const email = String(localStorage.getItem("Trackusername")) || username;
 
       const responseEmail = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
         method: 'POST',
@@ -96,12 +97,12 @@ const AddPayment = ({ onClose, amount, requestId, request, username }) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          service_id: 'service_n4mw93i',
+          service_id: 'service_hxjxpmi',
           template_id: 'template_hwohuhq',
           user_id: 'yKBDhfI1SwLvmocO0',
           template_params: {
-            to_email: toemail,
-            message: `Dear ${toemail},\n\nWe are pleased to inform you that your Payment successfully completed with Request ID ${requestId} of amount ${amount}.\n\nApproved Date: ${formattedDate}\nThank you for your prompt attention to this matter.`,
+            to_email: email,
+            message: `Dear ${username},\n\nWe are pleased to inform you that your Payment successfully completed with Request ID ${requestId} of amount ${amount}.\n\nApproved Date: ${formattedDate}\nThank you for your prompt attention to this matter.`,
             'g-recaptcha-response': '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...',
           },
         }),
