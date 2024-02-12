@@ -96,6 +96,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\4b631bb5-73da-4a10-bd20-1a41c77a2f34_TRAVEL-AGENCY-1-564x804.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\5a674d12-215b-4901-a75b-9880925d815d_clouds-country-daylight-371633.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReimbursementTrackerApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReimbursementTrackerApp</BasePath>
+      <RelativePath>Documents/5a674d12-215b-4901-a75b-9880925d815d_clouds-country-daylight-371633.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\5a674d12-215b-4901-a75b-9880925d815d_clouds-country-daylight-371633.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Documents\6b324f58-68c0-456e-af5d-f35a9a27ca46_clouds-country-daylight-371633.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ReimbursementTrackerApp</SourceId>

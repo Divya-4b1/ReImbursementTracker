@@ -1253,13 +1253,14 @@ C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-T
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\ReimbursementTrackerApp.csproj.CoreCompileInputs.cache
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\ReimbursementTrackerApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\ReimbursementTrackerApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\ReimbursementTrackerApp.sourcelink.json
+C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets\msbuild.ReimbursementTrackerApp.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets\msbuild.build.ReimbursementTrackerApp.props
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ReimbursementTrackerApp.props
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ReimbursementTrackerApp.props
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\scopedcss\bundle\ReimbursementTrackerApp.styles.css
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\ReimbursementTrackerApp.csproj.CopyComplete
 C:\Users\2000112434\Downloads\Reimbursement-Tracker-HRApp-master\Reimbursement-Tracker-HRApp-master\ReimbursementTrackerApp\obj\Debug\net6.0\ReimbursementTrackerApp.dll
