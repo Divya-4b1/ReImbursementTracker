@@ -1,10 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
 import UpdateRequest from './UpdateRequest';
 import './UserRequests.css';
- 
+
 const ViewTracking = ({ trackingDetails, onClose }) => {
   return (
     <div>
@@ -21,7 +20,7 @@ const ViewTracking = ({ trackingDetails, onClose }) => {
         Tracking Status:
         <input type="text" name="trackingStatus" value={trackingDetails.trackingStatus} readOnly />
       </label>
- 
+
       <label>
         Approval Date:
         <input name="approvalDate" value={trackingDetails.approvalDate || ''} readOnly />
@@ -36,20 +35,20 @@ const ViewTracking = ({ trackingDetails, onClose }) => {
     </div>
   );
 };
- 
+
 const UserRequests = () => {
   const [userRequests, setUserRequests] = useState([]);
   const [selectedRequest, setSelectedRequest] = useState(null);
   const [viewTrackingDetails, setViewTrackingDetails] = useState(null);
   const [isUpdateModalOpen, setUpdateModalOpen] = useState(false);
   const [documentModal, setDocumentModal] = useState({ isOpen: false, documentUrl: '' });
- 
+
   useEffect(() => {
     const fetchUserRequests = async () => {
       try {
         // Get the username from localStorage
         const username = localStorage.getItem('username');
- 
+
         if (username) {
           // Send a GET request to fetch user-specific requests
           const response = await axios.get(`https://localhost:7007/api/Request/user/${username}`);
@@ -62,7 +61,7 @@ const UserRequests = () => {
         console.error('Error fetching user requests:', error);
       }
     };
- 
+
     fetchUserRequests();
   }, []);
   const handleViewTrackingClick = async (requestId) => {
@@ -76,17 +75,17 @@ const UserRequests = () => {
   const handleDeleteRequest = async (requestId) => {
     // Show a confirmation alert before deleting
     const isConfirmed = window.confirm("Do you really want to delete the request? Once deleted, it cannot be undone.");
- 
+  
     if (isConfirmed) {
       try {
         // Send a DELETE request to delete the request on the server
          await axios.delete(`https://localhost:7007/api/Request/${requestId}`);
-     
-       
+      
+        
         // Update the user requests after deleting
         const updatedRequests = userRequests.filter((request) => request.requestId !== requestId);
         setUserRequests(updatedRequests);
- 
+  
         // Notify the user after successful deletion
         window.alert(`Request with ID ${requestId} deleted successfully.`);
       } catch (error) {
@@ -97,18 +96,18 @@ const UserRequests = () => {
       window.alert('Deletion canceled. The request was not deleted.');
     }
   }
- 
+
   const handleUpdateRequest = (request) => {
     setSelectedRequest(request);
     setUpdateModalOpen(true);
   };
- 
+
   const handleUpdateSuccess = () => {
     setUpdateModalOpen(false);
     setSelectedRequest(null);
     // Optionally, update the user requests after a successful update
   };
- 
+
   const handleCloseViewTrackingModal = () => {
     setViewTrackingDetails(null);
   };
@@ -126,9 +125,9 @@ const UserRequests = () => {
     // Close the document modal
     setDocumentModal({ isOpen: false, documentUrl: '' });
   };
- 
+
   return (
-    <div>
+    <div class='bg-container'>
       <h2>User Requests</h2>
       <div className="request-container">
         {userRequests.map((request) => (
@@ -137,9 +136,9 @@ const UserRequests = () => {
             <p>Expense Category: {request.expenseCategory}</p>
             <p>Amount: {request.amount}</p>
             <p>
-              Document:
+              Document: 
               {/* Add a View button for the document */}
-             
+              
               <button onClick={() => handleViewDocument(request.document)} className="Button">View Document</button>
             </p>
             <p>Description: {request.description}</p>
@@ -185,6 +184,5 @@ const UserRequests = () => {
     </div>
   );
 };
- 
+
 export default UserRequests;
- 

@@ -95,7 +95,7 @@ const Requests = () => {
   };
 
   return (
-    <div>
+    <div className='bg-container'>
       <h2 className="blue-color">Requests</h2>
       <div className='container'>
         <input
@@ -191,7 +191,9 @@ const Requests = () => {
             <UpdateTracking
               requestId={selectedRequest.requestId}
               trackingDetails={updateTrackingDetails}
+              //username={selectedRequest.username}
               onUpdateTracking={() => {
+                
                 handleCloseUpdateTrackingModal();
               }}
               onClose={handleCloseUpdateTrackingModal}
